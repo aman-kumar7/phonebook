@@ -100,7 +100,7 @@ summary{
       }
       ?>
      <form method="get" action="<?php echo $_SERVER["PHP_SELF"];?>">
-      <input type="search" placeholder="Search..." name="search" id="mySearch" class="search " value="<?php echo $val; ?>" >
+      <input type="search" placeholder="Press Enter to Search..." name="search" id="mySearch" class="search " value="<?php echo $val; ?>" >
     </form>
       <br><br><br>
      <?php
